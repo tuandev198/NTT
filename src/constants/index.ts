@@ -12,43 +12,43 @@ export let projectsData = [
   {
     _id: 1001,
     image: eCommerceProImg,
-    title: "Supergear Online Shopping",
-    des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    title: "Supergear - Mua sắm trực tuyến",
+    des: "Website thương mại điện tử với trải nghiệm mua sắm mượt mà, dễ quản trị và tối ưu cho thiết bị di động.",
     link: "https://youtu.be/JkOaWPFihwo",
   },
   {
     _id: 1002,
     image: movieStudioImg,
     title: "Movie Studio",
-    des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    des: "Trang giới thiệu nội dung/portfolio cho studio với giao diện hiện đại và tối ưu SEO cơ bản.",
     link: "https://youtu.be/_j9q-LrsyUo",
   },
   {
     _id: 1003,
     image: cyberBlogImg,
-    title: "Personalized Blog Website",
-    des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    title: "Website blog cá nhân hóa",
+    des: "Nền tảng blog cho phép đăng bài, quản lý nội dung và chia sẻ bài viết với trải nghiệm đọc tốt.",
     link: "https://youtu.be/3UUVHSYHEU0",
   },
   {
     _id: 1004,
     image: amazonCloneImg,
     title: "Amazon Clone Pro",
-    des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    des: "Demo hệ thống e-commerce theo phong cách marketplace, tập trung UX và khả năng mở rộng.",
     link: "https://youtu.be/vviFia-Stqk",
   },
   {
     _id: 1005,
     image: portfolioImgTwo,
-    title: "Orebi Online Shopping",
-    des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    title: "Orebi - Mua sắm trực tuyến",
+    des: "Website bán hàng với giao diện sạch, quy trình đặt hàng rõ ràng và tối ưu hiệu năng.",
     link: "https://youtu.be/fkrDAaAMcpY",
   },
   {
     _id: 1006,
     image: portfolioImg,
-    title: "Dynamic Portfolio",
-    des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    title: "Portfolio động",
+    des: "Portfolio giới thiệu dự án, kỹ năng và liên hệ, tối ưu hiển thị trên mọi thiết bị.",
     link: "https://youtu.be/lJ2EBYN0C70",
   },
 ];
@@ -57,13 +57,13 @@ export let projectsData = [
 export let FaqData = [
   {
     id: "01",
-    title: "Where is my order",
-    des: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe autem nihil ex at sapiente voluptatum veritatis iure aliquid obcaecati.",
+    title: "Tôi có thể theo dõi tiến độ dự án ở đâu?",
+    des: "Chúng tôi sẽ gửi lộ trình và cập nhật theo từng mốc (thiết kế, phát triển, kiểm thử, bàn giao). Bạn cũng có thể trao đổi trực tiếp với người phụ trách dự án.",
   },
   {
     id: "02",
-    title: "What are the delivery types?",
-    des: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe autem nihil ex at sapiente voluptatum veritatis iure aliquid obcaecati.",
+    title: "Bàn giao gồm những gì?",
+    des: "Tùy gói dịch vụ, bàn giao có thể bao gồm mã nguồn, tài khoản quản trị, hướng dẫn sử dụng, tài liệu triển khai và hỗ trợ sau bàn giao.",
   },
 ];
 // =================== FAQ Data end here ============================

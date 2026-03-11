@@ -5,21 +5,21 @@ import SliderText from "./SliderText";
 const Banner = () => {
   const sliderContent = [
     {
-      title: "WEB DESIGN & DEVELOPMENT COMPANY",
+      title: "CÔNG TY THIẾT KẾ & PHÁT TRIỂN WEBSITE",
       desTitle: "ReactBD",
-      des: "is a web development company whose aim is to help businesses of all sizes to bring their business online. Our digital strategy helps startups and enterprise businesses to sustain their brands on the internet ecosystem.",
+      des: "là đơn vị phát triển web với mục tiêu giúp doanh nghiệp ở mọi quy mô đưa hoạt động lên môi trường trực tuyến. Chiến lược số của chúng tôi hỗ trợ startup và doanh nghiệp xây dựng, duy trì thương hiệu bền vững trên hệ sinh thái internet.",
       backgroundClass: "bg-bgOne",
     },
     {
-      title: "WEB HOSTING AND MAINTAINING",
+      title: "HOSTING & BẢO TRÌ WEBSITE",
       desTitle: "Website",
-      des: "maintenance is the work to keep your site fully operational and healthy and by keeping that in mind, we provide a full year of free hosting and maintenance on your initial project with us and will ensure your web optimization on time.",
+      des: "bảo trì là công việc giúp website luôn vận hành ổn định và “khỏe mạnh”. Vì vậy, với dự án đầu tiên, chúng tôi tặng 1 năm hosting và bảo trì miễn phí, đồng thời đảm bảo tối ưu hiệu năng website đúng thời hạn.",
       backgroundClass: "bg-bgTwo",
     },
     {
-      title: "CONTENT CREATION & SEO",
-      desTitle: "Content",
-      des: "SEO refers to creating content that helps your web pages to rank high in search engines. It includes everything to do with the writing and structuring of content on your website. To write and structure quality content, you can depend on our experienced team.",
+      title: "SẢN XUẤT NỘI DUNG & SEO",
+      desTitle: "Nội dung",
+      des: "SEO tập trung vào việc tạo nội dung giúp trang của bạn có thứ hạng cao trên công cụ tìm kiếm. Điều này bao gồm cách viết và cấu trúc nội dung trên website. Để có nội dung chất lượng, bạn có thể tin tưởng đội ngũ giàu kinh nghiệm của chúng tôi.",
       backgroundClass: "bg-bgThree",
     },
   ];

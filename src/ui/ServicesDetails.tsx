@@ -45,7 +45,7 @@ const ServicesDetails = ({
         <div>
           <h3 className="text-2xl font-semibold uppercase">{title}</h3>
           <p className="text-sm text-secondaryColor underline underline-offset-4 decoration-[1px] mt-1">
-            Starting from:
+            Giá từ:
           </p>
           <h2 className="text-4xl font-bodyFont mt-1 font-semibold">
             USD {startingAmt}
@@ -67,7 +67,7 @@ const ServicesDetails = ({
           </ul>
         </div>
         <div onClick={handleOrder} className="w-44">
-          <ContactUs buttonData="Order Now" />
+          <ContactUs buttonData="đặt ngay" />
         </div>
       </div>
       <Dialog
@@ -89,17 +89,16 @@ const ServicesDetails = ({
                 {title}
               </DialogTitle>
               <p className="mt-2 text-sm/6 text-white/50">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Maiores eaque pariatur magni quam dicta facere qui doloribus
-                quaerat obcaecati, repudiandae beatae explicabo, cum vitae
-                blanditiis id omnis necessitatibus iste voluptatibus.
+                Cảm ơn bạn đã quan tâm. Vui lòng bấm “Đóng” và chuyển sang trang
+                Liên hệ để gửi yêu cầu chi tiết; chúng tôi sẽ tư vấn và phản hồi
+                sớm nhất.
               </p>
               <div className="mt-4">
                 <Button
                   className="inline-flex items-center gap-2 rounded-md bg-secondaryColor/50 py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-secondaryColor/10 focus:outline-none data-[hover]:bg-secondaryColor data-[focus]:outline-1 data-[focus]:outline-white data-[open]:bg-gray-700"
                   onClick={close}
                 >
-                  Got it, thanks!
+                  Đóng
                 </Button>
               </div>
             </DialogPanel>

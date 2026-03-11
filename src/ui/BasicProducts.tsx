@@ -29,14 +29,14 @@ const BasicProducts = () => {
           <div className="font-titleFont">
             <h3 className="text-2xl font-semibold tracking-wider">React js</h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              The Future of web
+              Tương lai của web
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Xây dựng UI mượt, component hóa, dễ mở rộng và tối ưu hiệu năng cho
+            trải nghiệm người dùng.
           </p>
         </div>
       </div>
@@ -57,14 +57,14 @@ const BasicProducts = () => {
               React Native
             </h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              Get you mobile App
+              Ứng dụng di động của bạn
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Phát triển app iOS/Android nhanh chóng, đồng bộ thiết kế và dễ bảo
+            trì.
           </p>
         </div>
       </div>
@@ -83,14 +83,14 @@ const BasicProducts = () => {
           <div className="font-titleFont">
             <h3 className="text-2xl font-semibold tracking-wider">Next js</h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              Dynamic without limits
+              Linh hoạt không giới hạn
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Tối ưu SEO, tốc độ tải trang và trải nghiệm người dùng với kiến trúc
+            hiện đại.
           </p>
         </div>
       </div>
@@ -111,14 +111,13 @@ const BasicProducts = () => {
               Tailwindcss
             </h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              CSS Framework
+              Framework CSS
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Thiết kế nhanh, nhất quán và dễ tùy biến theo hệ thống design system.
           </p>
         </div>
       </div>
@@ -137,14 +136,14 @@ const BasicProducts = () => {
           <div className="font-titleFont">
             <h3 className="text-2xl font-semibold tracking-wider">Sanity.io</h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              Content Is Data
+              Nội dung là dữ liệu
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Quản trị nội dung linh hoạt, mô hình dữ liệu rõ ràng và dễ tích hợp
+            vào website/app.
           </p>
         </div>
       </div>
@@ -163,14 +162,14 @@ const BasicProducts = () => {
           <div className="font-titleFont">
             <h3 className="text-2xl font-semibold tracking-wider">Firebase</h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              Speed up your App
+              Tăng tốc ứng dụng
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Authentication, database, storage… giúp triển khai nhanh và mở rộng
+            thuận tiện.
           </p>
         </div>
       </div>
@@ -189,14 +188,13 @@ const BasicProducts = () => {
           <div className="font-titleFont">
             <h3 className="text-2xl font-semibold tracking-wider">Vercel</h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              Deployment made easy
+              Triển khai đơn giản
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            CI/CD tự động, preview theo nhánh và tối ưu hiệu năng cho Next.js.
           </p>
         </div>
       </div>
@@ -215,14 +213,13 @@ const BasicProducts = () => {
           <div className="font-titleFont">
             <h3 className="text-2xl font-semibold tracking-wider">Netlify</h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              Your web is here
+              Website của bạn ở đây
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Triển khai nhanh, dễ tích hợp và quản lý website tĩnh/SPA hiệu quả.
           </p>
         </div>
       </div>

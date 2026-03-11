@@ -12,12 +12,12 @@ import { usePathname } from "next/navigation";
 import { MdClose } from "react-icons/md";
 
 const navigation = [
-  { title: "Home", link: "/" },
-  { title: "About us", link: "/about" },
-  { title: "Services", link: "/services" },
-  { title: "Faq", link: "/faq" },
+  { title: "Trang chủ", link: "/" },
+  { title: "Giới thiệu", link: "/about" },
+  { title: "Dịch vụ", link: "/services" },
+  { title: "Hỏi đáp", link: "/faq" },
   { title: "Blog", link: "/blog" },
-  { title: "Contact", link: "/contact" },
+  { title: "Liên hệ", link: "/contact" },
 ];
 
 const Header = () => {
@@ -154,7 +154,7 @@ const Header = () => {
                 onClick={() => setToggleNav(false)}
                 className=" w-full px-3 hover:cursor-pointer py-1 border-b-[1px] border-b-borderColor hover:text-secondaryColor hover:border-b-secondaryColor transition-hover duration-500"
               >
-                Home
+                Trang chủ
               </li>
             </Link>
             <Link href="/about">
@@ -162,17 +162,17 @@ const Header = () => {
                 onClick={() => setToggleNav(false)}
                 className="px-3 hover:cursor-pointer py-2 border-b-[1px] border-b-borderColor hover:text-secondaryColor hover:border-b-secondaryColor transition-hover duration-500"
               >
-                About Us
+                Giới thiệu
               </li>
             </Link>
             <Link onClick={() => setToggleNav(false)} href="/services">
               <li className="px-3 hover:cursor-pointer flex items-center gap-1 py-2 border-b-[1px] border-b-borderColor hover:text-secondaryColor hover:border-b-secondaryColor transition-hover duration-500">
-                Services
+                Dịch vụ
               </li>
             </Link>
             <Link href="/faq">
               <li className="px-3 hover:cursor-pointer py-2 border-b-[1px] border-b-borderColor hover:text-secondaryColor hover:border-b-secondaryColor transition-hover duration-500">
-                FAQ
+                Hỏi đáp
               </li>
             </Link>
             <Link href="/blog">
@@ -182,7 +182,7 @@ const Header = () => {
             </Link>
             <Link onClick={() => setToggleNav(false)} href="/contact">
               <li className="px-3 hover:cursor-pointer py-2 border-b-[1px] border-b-borderColor hover:text-secondaryColor hover:border-b-secondaryColor transition-hover duration-500">
-                Contact
+                Liên hệ
               </li>
             </Link>
           </ul>

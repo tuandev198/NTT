@@ -17,8 +17,8 @@ const Footer = () => {
           ReactBD
         </h2>
         <p className="text-base text-darkText tracking-wide">
-          Lorem ipsum dolor sit amet, consyect etur adipiscing elit. Quisque
-          actraqum nunc no dolor sit amet augue dolor.
+          Chúng tôi cung cấp giải pháp thiết kế – phát triển website, tối ưu hiệu
+          năng và đồng hành cùng doanh nghiệp trong hành trình chuyển đổi số.
         </p>
         <p className="flex items-center text-lg gap-5">
           <BsTwitter className="text-white hover:text-secondaryColor duration-500 cursor-pointer" />
@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
       <div>
         <h3 className="font-titleFont text-xl font-semibold mb-4">
-          Contact Info
+          Thông tin liên hệ
         </h3>
         <div className="flex flex-col gap-6">
           <p className="font-base text-darkText flex items-start gap-6 justify-start hover:text-white duration-500 cursor-pointer">
@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
       <div>
         <h3 className="font-titleFont text-xl font-semibold mb-4">
-          Blog Contains
+          Nội dung
         </h3>
         <div className="flex flex-col gap-6">
           <p className="font-base text-darkText flex items-start gap-6 justify-start hover:text-white duration-500 cursor-pointer">
@@ -79,12 +79,11 @@ const Footer = () => {
       </div>
       <div>
         <h3 className="font-titleFont text-xl font-semibold mb-4">
-          Support & Downloads
+          Hỗ trợ & Tài liệu
         </h3>
         <p className="text-base text-darkText">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-          voluptates, fuga aliquam nobis placeat iusto illum fugiat consequuntur
-          ad tempora.
+          Cần tư vấn nhanh? Hãy để lại thông tin, chúng tôi sẽ liên hệ và gửi tài
+          liệu phù hợp với nhu cầu của bạn.
         </p>
       </div>
     </div>

@@ -54,7 +54,7 @@ const SliderText = ({ title, desTitle, des }: any) => {
         }}
       >
         <Link href="/contact">
-          <ContactUs buttonData="contact us" />
+          <ContactUs buttonData="liên hệ" />
         </Link>
       </motion.div>
     </div>

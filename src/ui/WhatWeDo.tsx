@@ -15,10 +15,10 @@ const WhatWeDo = () => {
       <div className="w-full lgl:w-2/5 flex flex-col gap-10">
         <div className="font-titleFont w-full xl:w-5/6 text-center xl:text-left">
           <h4 className="text-secondaryColor uppercase text-sm tracking-[4px] mb-2">
-            Analytics Platform
+            Nền tảng phân tích
           </h4>
           <h2 className="text-2xl md:text-[45px] font-semibold tracking-wide md:leading-[45px]">
-            We do everything related web and online services.
+            Chúng tôi cung cấp trọn bộ dịch vụ web và giải pháp online.
           </h2>
         </div>
         <div>
@@ -28,8 +28,8 @@ const WhatWeDo = () => {
                 01
               </span>
               <p className="text-base text-darkText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                dolor exercitationem temporibus dolorem. Repudiandae ipsum!!
+                Tư vấn chiến lược số, thiết kế giao diện và xây dựng website tối
+                ưu cho chuyển đổi và trải nghiệm người dùng.
               </p>
             </div>
             <div className="flex gap-10 w-full md:w-4/5">
@@ -37,8 +37,8 @@ const WhatWeDo = () => {
                 02
               </span>
               <p className="text-base text-darkText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                dolor exercitationem temporibus dolorem. Repudiandae ipsum!!
+                Triển khai hosting, bảo trì, tối ưu hiệu năng và hỗ trợ vận hành
+                để website luôn ổn định và an toàn.
               </p>
             </div>
           </div>

@@ -17,19 +17,19 @@ const ContactForm = ({ setSuccessMessage }: any) => {
   const handleSendDetails = (e: any) => {
     e.preventDefault();
     if (username === "") {
-      setErrMessage("Your name is required!");
+      setErrMessage("Vui lòng nhập họ tên!");
     } else if (email === "") {
-      setErrMessage("Please give your Email");
+      setErrMessage("Vui lòng nhập email");
     } else if (!emailValidation(email)) {
-      setErrMessage("Give a Valid Email");
+      setErrMessage("Email không hợp lệ");
     } else if (message === "") {
-      setErrMessage("Enter your Messages");
+      setErrMessage("Vui lòng nhập nội dung");
     } else {
       setUsername("");
       setEmail("");
       setMessage("");
       setSuccessMessage(
-        `Hello dear ${username}. We received your message successfully. Additional details will send to you by your email at ${email} and our responsible personnel will contact you shortly. Thank you for your time.`
+        `Chào ${username}. Chúng tôi đã nhận được tin nhắn của bạn. Chúng tôi sẽ phản hồi qua email ${email} và nhân sự phụ trách sẽ sớm liên hệ. Cảm ơn bạn!`
       );
     }
   };
@@ -37,7 +37,7 @@ const ContactForm = ({ setSuccessMessage }: any) => {
     <>
       <div className="flex justify-between gap-1">
         <h4 className="text-secondaryColor text-lg mdl:text-xl mb-2">
-          Contact Form
+          Form liên hệ
         </h4>
       </div>
       <div className="flex flex-col gap-1 text-base text-gray-100 font-titleFont">
@@ -46,7 +46,7 @@ const ContactForm = ({ setSuccessMessage }: any) => {
           value={username}
           className="w-full outline-none rounded-sm px-4 pt-5 pb-2 placeholder:text-sm bg-transparent border-b-[1px] border-b-borderColor focus:border-b-secondaryColor placeholder:translate-y-0 focus:placeholder:-translate-y-5 placeholder:transition-transform duration-500 placeholder:uppercase"
           type="text"
-          placeholder="Your Full Name"
+          placeholder="Họ và tên"
         />
 
         <input
@@ -54,7 +54,7 @@ const ContactForm = ({ setSuccessMessage }: any) => {
           value={email}
           className="w-full outline-none rounded-sm px-4 pt-5 pb-2 placeholder:text-sm bg-transparent border-b-[1px] border-b-borderColor focus:border-b-secondaryColor placeholder:translate-y-0 focus:placeholder:-translate-y-5 placeholder:transition-transform duration-500 placeholder:uppercase"
           type="email"
-          placeholder="Your Email"
+          placeholder="Email"
         />
 
         <textarea
@@ -64,7 +64,7 @@ const ContactForm = ({ setSuccessMessage }: any) => {
           id=""
           cols={30}
           rows={5}
-          placeholder="YOUR MESSAGE"
+          placeholder="Nội dung"
         />
       </div>
       {errMessage && (
@@ -76,7 +76,7 @@ const ContactForm = ({ setSuccessMessage }: any) => {
         onClick={handleSendDetails}
         className="relative w-full text-lg font-semibold uppercase font-titleFont active:bg-secondaryColor tracking-[4px] border p-2 border-gray-800 mt-8 overflow-hidden group"
       >
-        Send
+        Gửi
         <span className="absolute w-full h-[1px] bg-secondaryColor left-0 top-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-500"></span>
         <span className="absolute w-full h-[1px] bg-secondaryColor left-0 bottom-0 translate-x-[100%] group-hover:translate-x-0 transition-transform duration-500"></span>
         <span className="absolute w-[1px] h-full bg-secondaryColor left-0 bottom-0 translate-y-[100%] group-hover:translate-y-0 transition-transform duration-500"></span>

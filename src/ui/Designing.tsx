@@ -15,10 +15,10 @@ const Designing = () => {
       <div className="w-full mdl:w-1/2 flex flex-col gap-10">
         <div className="font-titleFont w-full mdl:w-5/6">
           <h4 className="text-secondaryColor uppercase text-sm tracking-[4px] mb-2">
-            Designing website
+            Thiết kế website
           </h4>
           <h2 className="text-4xl mdl:text-[45px] font-semibold tracking-[2px] leading-[45px]">
-            We are Designing UI using Figma.
+            Chúng tôi thiết kế UI bằng Figma.
           </h2>
         </div>
         <div>
@@ -28,17 +28,17 @@ const Designing = () => {
                 01
               </span>
               <p className="text-base text-darkText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                dolor exercitationem temporibus dolorem. Repudiandae ipsum!!
+                Thiết kế theo thương hiệu, ưu tiên trải nghiệm người dùng và bố
+                cục rõ ràng, dễ điều hướng.
               </p>
             </div>
             <div className="flex gap-10 mdl:w-4/5">
               <span className="font-titleFont relative font-normal border-b border-borderColor before:w-[1px] before:h-[7px] before:bg-borderColor before:inline-block before:left-0 before:bottom-0 before:absolute h-7 w-20 px-2">
-                01
+                02
               </span>
               <p className="text-base text-darkText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                dolor exercitationem temporibus dolorem. Repudiandae ipsum!!
+                Bàn giao file thiết kế và guideline cơ bản, hỗ trợ tinh chỉnh
+                theo phạm vi đã thống nhất.
               </p>
             </div>
           </div>

@@ -37,8 +37,7 @@ const Design = () => {
             }}
             className="text-xl lgl:text-2xl mb-10"
           >
-            Choose Your
-            <span className="text-secondaryColor ml-3">Website Design</span>
+            Chọn gói <span className="text-secondaryColor ml-3">Thiết kế</span>
           </motion.h3>
           <motion.div
             initial={{ x: 50, opacity: 0 }}
@@ -58,11 +57,11 @@ const Design = () => {
                 <span className="text-secondaryColor">
                   <GiCheckMark />
                 </span>
-                Determining Your Need
+                Xác định nhu cầu
               </h3>
               <p className="text-base text-darkText hover:text-gray-300 duration-300">
-                Analyze your current website to determine what it will need in
-                future. When choosing a web host, plan according to the need.
+                Xác định mục tiêu, tệp khách hàng và nội dung chính để định hướng
+                bố cục, phong cách thiết kế và trải nghiệm người dùng.
               </p>
             </div>
             <div className="flex flex-col gap-6">
@@ -70,12 +69,11 @@ const Design = () => {
                 <span className="text-secondaryColor">
                   <GiCheckMark />
                 </span>
-                Compare Features
+                Thống nhất giao diện
               </h3>
               <p className="text-base text-darkText hover:text-gray-300 duration-300">
-                There are some important features such as bandwidth, storage,
-                server OS and acceptable security tools that must be compared to
-                you.
+                Chốt màu sắc, font chữ, hình ảnh và các thành phần UI để đảm bảo
+                đồng nhất thương hiệu và dễ mở rộng.
               </p>
             </div>
             <div className="flex flex-col gap-6">
@@ -83,11 +81,11 @@ const Design = () => {
                 <span className="text-secondaryColor">
                   <GiCheckMark />
                 </span>
-                Select Hosting Type
+                Thiết kế responsive
               </h3>
               <p className="text-base text-darkText hover:text-gray-300 duration-300">
-                Generally, you will be offered three types of servers by web
-                hosting companies. They are Shared, VPS and dedicated servers.
+                Tối ưu hiển thị trên mobile/tablet/desktop để tăng chuyển đổi và
+                cải thiện trải nghiệm người dùng.
               </p>
             </div>
             <div className="flex flex-col gap-6">
@@ -95,12 +93,11 @@ const Design = () => {
                 <span className="text-secondaryColor">
                   <GiCheckMark />
                 </span>
-                Compare Features
+                Bàn giao & hỗ trợ
               </h3>
               <p className="text-base text-darkText hover:text-gray-300 duration-300">
-                Select and order the web hosting package that suits you the
-                best. After that, an email will be sent to you to let you know
-                some instructions about your website.
+                Bàn giao file thiết kế và guideline cơ bản; hỗ trợ chỉnh sửa theo
+                phạm vi đã thống nhất.
               </p>
             </div>
           </motion.div>

@@ -37,8 +37,7 @@ const Development = () => {
             }}
             className="text-2xl mb-10"
           >
-            Website
-            <span className="text-secondaryColor ml-3">Development</span>
+            Phát triển <span className="text-secondaryColor ml-3">website</span>
           </motion.h3>
           <motion.div
             initial={{ x: 50, opacity: 0 }}
@@ -58,12 +57,11 @@ const Development = () => {
                 <span className="text-secondaryColor">
                   <GiCheckMark />
                 </span>
-                Planning
+                Lên kế hoạch
               </h3>
               <p className="text-base text-darkText hover:text-gray-300 duration-300">
-                The planning stage is the first and the most important stage.
-                Because according to your planning and mapping you have to run
-                the entire project.
+                Xác định mục tiêu, phạm vi, nội dung, luồng người dùng và timeline
+                trước khi bắt đầu triển khai.
               </p>
             </div>
             <div className="flex flex-col gap-6">
@@ -71,12 +69,11 @@ const Development = () => {
                 <span className="text-secondaryColor">
                   <GiCheckMark />
                 </span>
-                Development
+                Phát triển
               </h3>
               <p className="text-base text-darkText hover:text-gray-300 duration-300">
-                Loading content and the combination of the programming work are
-                included in the development stage. It might be you or someone
-                else who will create the contens for your website.
+                Xây dựng chức năng và tích hợp nội dung. Bạn có thể cung cấp nội
+                dung hoặc chúng tôi hỗ trợ biên tập theo yêu cầu.
               </p>
             </div>
             <div className="flex flex-col gap-6">
@@ -84,12 +81,11 @@ const Development = () => {
                 <span className="text-secondaryColor">
                   <GiCheckMark />
                 </span>
-                Design
+                Thiết kế
               </h3>
               <p className="text-base text-darkText hover:text-gray-300 duration-300">
-                The information that has been outlined in the planning stage
-                will be moved into a full proof visual shape in the design
-                stage.
+                Chuyển các yêu cầu đã thống nhất thành giao diện trực quan, đảm
+                bảo đúng thương hiệu và trải nghiệm người dùng.
               </p>
             </div>
             <div className="flex flex-col gap-6">
@@ -97,12 +93,11 @@ const Development = () => {
                 <span className="text-secondaryColor">
                   <GiCheckMark />
                 </span>
-                Launch
+                Ra mắt
               </h3>
               <p className="text-base text-darkText hover:text-gray-300 duration-300">
-                Giving a website finishing polish of design elements to prepare
-                it perfectly for the public viewing is the purpose of launch
-                stage.
+                Hoàn thiện, kiểm thử, tối ưu và triển khai để website sẵn sàng
+                hoạt động cho người dùng cuối.
               </p>
             </div>
           </motion.div>

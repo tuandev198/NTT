@@ -8,10 +8,10 @@ const Projects = () => {
     <div className="max-w-screen-2xl mx-auto px-8 pb-6 lgl:pb-20">
       <div className="text-center">
         <h4 className="text-secondaryColor uppercase text-sm tracking-[4px] mb-2">
-          projects overview
+          tổng quan dự án
         </h4>
         <h2 className="text-3xl lg:text-[35px] font-semibold tracking-[2px] lg:leading-[55px]">
-          Some of the projects we have done
+          Một số dự án chúng tôi đã thực hiện
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 gap-16 py-10">

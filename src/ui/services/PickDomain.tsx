@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const PickDomain = () => {
   return (
-    <div className="w-full px-6 flex items-center gap-10 mt-14">
+      <div className="w-full px-6 flex items-center gap-10 mt-14">
       <motion.div
         initial={{ x: -20, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -49,21 +49,19 @@ const PickDomain = () => {
             // }}
             className="text-2xl"
           >
-            Pick Your<span className="text-secondaryColor ml-3">Domain</span>
+            Chọn <span className="text-secondaryColor ml-3">tên miền</span>
           </h3>
           <p className="text-base text-darkText leading-[28px] tracking-wide hover:text-gray-300 duration-300">
-            Do you want to build a blog website or create an online presence for
-            your company? If you are really planning to do so, your first and
-            foremost step is to find a memorable domain name for your website. A
-            domain name plays a very vital role in the success of a website.
-            But, selecting a name is slightly tough and tricky and is regarded
-            as one the most challenging steps in getting started.
+            Bạn muốn xây dựng blog hoặc tạo sự hiện diện trực tuyến cho doanh
+            nghiệp? Bước đầu tiên quan trọng là chọn một tên miền dễ nhớ. Tên
+            miền đóng vai trò lớn trong việc nhận diện thương hiệu và mức độ tin
+            cậy của website. Tuy nhiên, chọn tên miền đôi khi khá “khó nhằn” và
+            là một trong những bước thách thức nhất khi bắt đầu.
           </p>
           <p className="text-base text-darkText leading-[28px] tracking-wide hover:text-gray-300 duration-300">
-            Again while choosing a name you have to consider a lot of things
-            that may seem to you overwhelming. So to make it easier, here some
-            tips are given. Remember always that your website is the ultimate
-            face of your online company. Keep the following factors.
+            Khi chọn tên miền, bạn cần cân nhắc nhiều yếu tố. Để dễ hơn, dưới đây
+            là vài gợi ý. Hãy nhớ: website là “bộ mặt” của doanh nghiệp trên môi
+            trường online.
           </p>
         </motion.div>
         <motion.div
@@ -71,7 +69,7 @@ const PickDomain = () => {
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{
-            delay: 0.3,
+            delay: 0,
             x: { type: "spring", stiffness: 100 },
             opacity: { duration: 1 },
             ease: "easeIn",
@@ -84,27 +82,13 @@ const PickDomain = () => {
               <span className="text-secondaryColor">
                 <GiCheckMark />
               </span>
-              Make it memorable
+              Dễ nhớ
             </p>
             <p className="flex items-center gap-2 text-gray-300 hover:text-white duration-300 cursor-pointer">
               <span className="text-secondaryColor">
                 <GiCheckMark />
               </span>
-              Avoid hyphens
-            </p>
-          </div>
-          <div className="flex flex-col items-start gap-0 md:flex-row md:items-center md:justify-between">
-            <p className="flex items-center gap-2 text-gray-300 hover:text-white duration-300 cursor-pointer">
-              <span className="text-secondaryColor">
-                <GiCheckMark />
-              </span>
-              Make it memorable
-            </p>
-            <p className="flex items-center gap-2 text-gray-300 hover:text-white duration-300 cursor-pointer">
-              <span className="text-secondaryColor">
-                <GiCheckMark />
-              </span>
-              Avoid hyphens
+              Hạn chế dấu gạch ngang
             </p>
           </div>
           <div className="flex flex-col items-start gap-0 md:flex-row md:items-center md:justify-between">
@@ -112,13 +96,27 @@ const PickDomain = () => {
               <span className="text-secondaryColor">
                 <GiCheckMark />
               </span>
-              Make it memorable
+              Ngắn gọn, dễ gõ
             </p>
             <p className="flex items-center gap-2 text-gray-300 hover:text-white duration-300 cursor-pointer">
               <span className="text-secondaryColor">
                 <GiCheckMark />
               </span>
-              Avoid hyphens
+              Tránh ký tự gây nhầm lẫn
+            </p>
+          </div>
+          <div className="flex flex-col items-start gap-0 md:flex-row md:items-center md:justify-between">
+            <p className="flex items-center gap-2 text-gray-300 hover:text-white duration-300 cursor-pointer">
+              <span className="text-secondaryColor">
+                <GiCheckMark />
+              </span>
+              Phù hợp thương hiệu
+            </p>
+            <p className="flex items-center gap-2 text-gray-300 hover:text-white duration-300 cursor-pointer">
+              <span className="text-secondaryColor">
+                <GiCheckMark />
+              </span>
+              Ưu tiên đuôi phổ biến (.com/.vn)
             </p>
           </div>
         </motion.div>
@@ -127,7 +125,7 @@ const PickDomain = () => {
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{
-            delay: 0.4,
+            delay: 0,
             x: { type: "spring", stiffness: 100 },
             opacity: { duration: 1 },
             ease: "easeIn",
@@ -135,9 +133,8 @@ const PickDomain = () => {
           }}
         >
           <p className="text-base text-darkText leading-[28px] tracking-wide hover:text-gray-300 duration-300">
-            These all factors should be considered when you are going to choose
-            a domain name. But it&apos;s fine if you disregard any of them as
-            your convenience to focus on others.
+            Những yếu tố trên giúp bạn chọn tên miền tốt hơn. Tuy nhiên, bạn có
+            thể linh hoạt ưu tiên yếu tố quan trọng nhất với mục tiêu của mình.
           </p>
         </motion.div>
       </div>
