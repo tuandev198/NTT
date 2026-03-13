@@ -6,6 +6,7 @@ import { SiAntdesign } from "react-icons/si";
 import { motion } from "framer-motion";
 import TitleBanner from "@/ui/TitleBanner";
 import ServicesDetails from "@/ui/ServicesDetails";
+import ServiceHighlights from "@/ui/ServiceHighlights";
 
 const servicesData = [
   {
@@ -58,6 +59,7 @@ export default function ServicesClient() {
   return (
     <div>
       <TitleBanner subtitle="Khám phá cơ hội" title="Dịch vụ" />
+      <ServiceHighlights />
       <div className="max-w-screen-lg mx-auto pt-32">
         <div className="px-4 -mt-32 mb-8 lg:mb-0">
           <div className="grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 font-titleFont font-semibold uppercase text-base md:text-lg lgl:text-base xl:text-lg overflow-hidden rounded-md border border-borderColor/60">
