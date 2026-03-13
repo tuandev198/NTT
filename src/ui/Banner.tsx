@@ -6,7 +6,7 @@ const Banner = () => {
   const sliderContent = [
     {
       title: "CÔNG TY THIẾT KẾ & PHÁT TRIỂN WEBSITE",
-      desTitle: "ReactBD",
+      desTitle: "CellVn Solution",
       des: "là đơn vị phát triển web với mục tiêu giúp doanh nghiệp ở mọi quy mô đưa hoạt động lên môi trường trực tuyến. Chiến lược số của chúng tôi hỗ trợ startup và doanh nghiệp xây dựng, duy trì thương hiệu bền vững trên hệ sinh thái internet.",
       backgroundClass: "bg-bgOne",
     },
@@ -27,7 +27,7 @@ const Banner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   return (
-    <div className="w-full bg-primaryColor pt-10">
+    <div className="w-full bg-gray-100 dark:bg-primaryColor pt-10 transition-colors duration-300">
       <div
         className={`${sliderContent[currentSlide].backgroundClass} transition-bg duration-1000 w-full bg-contain bg-no-repeat xl:bg-cover bg-center font-titleFont relative py-10 mdl:py-32`}
       >
@@ -38,14 +38,14 @@ const Banner = () => {
             des={sliderContent[currentSlide].des}
           />
         </div>
-        <div className="absolute -bottom-20 mdl:bottom-0 flex flex-col mdl:flex-row items-start px-4 mdl:items-center bg-transparent justify-center gap-2 mdl:gap-6 text-[14px] text-gray-400 py-4 w-full bg-primaryColor">
+        <div className="absolute -bottom-20 mdl:bottom-0 flex flex-col mdl:flex-row items-start px-4 mdl:items-center bg-transparent justify-center gap-2 mdl:gap-6 text-[14px] text-gray-500 dark:text-gray-400 py-4 w-full bg-gray-100 dark:bg-primaryColor">
           {sliderContent.map((_, index) => (
             <p
               key={index}
               onClick={() => setCurrentSlide(index)}
               className={`${
-                currentSlide === index ? "text-white" : "text-gray-400"
-              } relative h-full w-48 px-3 py-1 hover:text-white hover:cursor-pointer duration-300 overflow-hidden bg-primaryColor bg-opacity-10 group`}
+                currentSlide === index ? "text-gray-900 dark:text-white" : "text-gray-500 dark:text-gray-400"
+              } relative h-full w-48 px-3 py-1 hover:text-gray-900 dark:hover:text-white hover:cursor-pointer duration-300 overflow-hidden bg-white/50 dark:bg-primaryColor/10 group`}
             >
               0{index + 1}
               <span

@@ -96,7 +96,7 @@ export default function FaqClient() {
                 <span className="text-secondaryColor text-lg">
                   <MdMarkEmailUnread />
                 </span>
-                reactjsbd@gmail.com
+               cellvn@gmail.com
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
@@ -124,7 +124,7 @@ export default function FaqClient() {
                 <span className="text-secondaryColor text-lg">
                   <MdMarkEmailUnread />
                 </span>
-                reactjsbd@gmail.com
+              cellvn@gmail.com
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">

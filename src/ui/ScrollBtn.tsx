@@ -43,7 +43,7 @@ const ScrollBtn = () => {
     };
   }, []);
   return (
-    <div className="w-12 h-12 z-10 text-2xl hidden scrollBtn">
+    <div className="w-12 h-12 z-10 text-2xl hidden scrollBtn rounded-md border border-gray-300 dark:border-borderColor bg-white dark:bg-transparent text-gray-900 dark:text-white">
       <button className="w-full h-full flex items-center justify-center relative overflow-hidden group">
         <BsArrowUp />
         <span className="w-full h-[1px] bg-secondaryColor absolute top-0 inline-block -translate-y-[.3px] group-hover:translate-y-0 transition-transform duration-300"></span>

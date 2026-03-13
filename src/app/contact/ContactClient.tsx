@@ -24,7 +24,7 @@ const ContactClient = () => {
               Chúng tôi sẵn sàng tạo ra một sản phẩm thật khác biệt cho bạn hoặc
               tổ chức của bạn. Hãy gửi cho chúng tôi thông tin về nhu cầu của
               bạn. Bạn có thể liên hệ WhatsApp tại{" "}
-              <span className="text-secondaryColor">+88 01817986903</span>.
+              <span className="text-secondaryColor">+84 559903798</span>.
             </p>
           </div>
           <div>
@@ -48,59 +48,59 @@ const ContactClient = () => {
           </h3>
           <div className="mt-4 flex flex-col gap-8">
             <div className="flex flex-col gap-2">
-              <h4 className="text-lg uppercase">Bangladesh:</h4>
+              <h4 className="text-lg uppercase">Hồ Chí Minh:</h4>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <FaHome />
                 </span>
-                Khu vực trung tâm, <br />
-                Dhaka, Bangladesh.
+                60 QL22 <br />
+                Tân An Hội, Củ Chi
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <MdMarkEmailUnread />
                 </span>
-                reactjsbd@gmail.com
+               cellvn@gmail.com
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <BsPhoneFill />
                 </span>
-                +00 01000000000
+                +84 559903798
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <IoLogoWhatsapp />
                 </span>
-                +88 01100000000
+                  +84 559903798
               </p>
             </div>
             <div className="flex flex-col gap-2">
-              <h4 className="text-lg uppercase">USA:</h4>
+              <h4 className="text-lg uppercase">CỦ CHI:</h4>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <FaHome />
                 </span>
-                Khu thương mại, <br />
-                New York, USA
+                 60 QL22 <br />
+                Tân An Hội, Củ Chi
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <MdMarkEmailUnread />
                 </span>
-                reactjsbd@gmail.com
+                cellvn@gmail.com
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <BsPhoneFill />
                 </span>
-                +00 24187626
+                +84 559903798
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <IoLogoWhatsapp />
                 </span>
-                +00 24187627
+               +84 559903798
               </p>
             </div>
           </div>

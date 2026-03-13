@@ -48,7 +48,7 @@ const ServicesDetails = ({
             Giá từ:
           </p>
           <h2 className="text-4xl font-bodyFont mt-1 font-semibold">
-            USD {startingAmt}
+            {startingAmt}
           </h2>
         </div>
         <div>

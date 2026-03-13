@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Layout from "@/ui/Layout";
+import { ThemeProvider } from "@/context/ThemeContext";
 import Script from "next/script";
 import { Be_Vietnam_Pro } from "next/font/google";
 
@@ -49,13 +50,20 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "ReactBD",
+    name: "CellVn Solution",
     url: siteUrl,
-    email: "reactjsbd@gmail.com",
+    email: "cellvn@gmail.com",
   };
 
   return (
-    <html lang="vi">
+    <html lang="vi" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var t=localStorage.getItem('cellvn-theme');document.documentElement.classList.add(t==='light'?'':'dark');})();`,
+          }}
+        />
+      </head>
       <body className={beVietnamPro.className}>
         <Script
           id="org-jsonld"
@@ -63,7 +71,9 @@ export default function RootLayout({
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <Layout>{children}</Layout>
+        <ThemeProvider>
+          <Layout>{children}</Layout>
+        </ThemeProvider>
       </body>
     </html>
   );

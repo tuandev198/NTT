@@ -5,9 +5,8 @@ import { AiOutlineClose } from "react-icons/ai";
 import { CgMenuRight } from "react-icons/cg";
 
 import Link from "next/link";
-import { reactBdLogo } from "@/assets";
 import SideNav from "./SideNav";
-import Image from "next/image";
+import ThemeToggle from "./ThemeToggle";
 import { usePathname } from "next/navigation";
 import { MdClose } from "react-icons/md";
 
@@ -15,6 +14,7 @@ const navigation = [
   { title: "Trang chủ", link: "/" },
   { title: "Giới thiệu", link: "/about" },
   { title: "Dịch vụ", link: "/services" },
+  { title: "Dự án", link: "/projects" },
   { title: "Hỏi đáp", link: "/faq" },
   { title: "Blog", link: "/blog" },
   { title: "Liên hệ", link: "/contact" },
@@ -27,11 +27,9 @@ const Header = () => {
   const pathname = usePathname();
 
   const [navSize, setNavSize] = useState("90px");
-  const [navColor, setNavColor] = useState("#161616");
 
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setNavColor("#000000") : setNavColor("#161616");
-    window.scrollY > 10 ? setNavSize("90px") : setNavSize("90px");
+    setNavSize("90px");
   };
 
   useEffect(() => {
@@ -44,30 +42,20 @@ const Header = () => {
   return (
     <>
       <nav
-        style={{
-          backgroundColor: navColor,
-          height: navSize,
-          transition: "all 1s",
-        }}
-        className="w-full h-[90px] bg-primaryColor fixed top-0 z-50 px-4 nav"
+        style={{ height: navSize, transition: "all 0.3s" }}
+        className="w-full h-[90px] bg-white dark:bg-primaryColor border-b border-gray-200 dark:border-transparent fixed top-0 z-50 px-4 nav"
       >
         <div className="w-full h-[90px]">
-          <header className="max-w-screen-2xl mx-auto text-white flex items-center justify-between h-full overflow-hidden">
+          <header className="max-w-screen-2xl mx-auto text-gray-900 dark:text-white flex items-center justify-between h-full overflow-hidden">
             {/* ================= Header logo start here ================= */}
-            <Link href="/">
-              <div>
-                <Image
-                  priority
-                  className="w-36"
-                  src={reactBdLogo}
-                  alt="reactBdLogo"
-                />
-              </div>
+            <Link href="/" className="font-titleFont text-xl font-bold tracking-wide text-gray-900 dark:text-white">
+              CellVn Solution
             </Link>
             {/* ================= Header logo end here =================== */}
             {/* ================= Header Nav Link start here =================== */}
-            <div className="relative">
-              <div className="hidden lgl:flex items-center gap-6 xl:gap-12 uppercase font-titleFont tracking-[3px] text-[14px] font-semibold">
+            <div className="relative flex items-center gap-4">
+              <ThemeToggle />
+              <div className="hidden lgl:flex items-center gap-6 xl:gap-12 uppercase font-titleFont tracking-[3px] text-[14px] font-semibold text-gray-900 dark:text-white">
                 {navigation?.map((item) => (
                   <Link
                     key={item?.title}
@@ -90,10 +78,10 @@ const Header = () => {
               </div>
               {/* ================== Header Small Icon start here ================== */}
 
-              <div
-                onCanPlay={() => setToggleNav(!toggleNav)}
-                className="relative text-2xl w-11 h-11 lgl:hidden flex flex-col gap-[6px] border-b-[1px] border-b-secondaryColor border-t-[1px] text-white border-t-secondaryColor items-center justify-center group hover:cursor-pointer overflow-hidden"
-              >
+            <div
+              onClick={() => setToggleNav(!toggleNav)}
+              className="relative text-2xl w-11 h-11 lgl:hidden flex flex-col gap-[6px] border-b-[1px] border-b-secondaryColor border-t-[1px] text-gray-900 dark:text-white border-t-secondaryColor items-center justify-center group hover:cursor-pointer overflow-hidden"
+            >
                 {toggleNav ? (
                   <AiOutlineClose onClick={() => setToggleNav(!toggleNav)} />
                 ) : (
@@ -110,13 +98,13 @@ const Header = () => {
 
             <div
               onClick={() => setShowSideNav(!showSideNav)}
-              className="relative hidden text-xl w-11 h-11 lgl:flex flex-col gap-[6px] border-b-[1px] border-b-gray-500 border-t-[1px] border-t-gray-500 items-center justify-center group hover:cursor-pointer overflow-hidden menuBtn"
+              className="relative hidden text-xl w-11 h-11 lgl:flex flex-col gap-[6px] border-b-[1px] border-b-gray-500 dark:border-b-gray-500 border-t-[1px] border-t-gray-500 dark:border-t-gray-500 items-center justify-center group hover:cursor-pointer overflow-hidden menuBtn"
             >
               {!showSideNav ? (
                 <>
-                  <span className="w-5 h-[1px] inline-flex bg-white"></span>
-                  <span className="w-5 h-[1px] inline-flex bg-white"></span>
-                  <span className="w-5 h-[1px] inline-flex bg-white"></span>
+                  <span className="w-5 h-[1px] inline-flex bg-gray-900 dark:bg-white"></span>
+                  <span className="w-5 h-[1px] inline-flex bg-gray-900 dark:bg-white"></span>
+                  <span className="w-5 h-[1px] inline-flex bg-gray-900 dark:bg-white"></span>
                 </>
               ) : (
                 <MdClose className="text-xl text-red-500" />
@@ -146,7 +134,7 @@ const Header = () => {
             opacity: { duration: 1 },
             ease: "easeIn easeOut",
           }}
-          className="w-full py-6 px-4 top-0 mt-20 z-50 bg-black fixed inline-block lgl:hidden text-white/80"
+          className="w-full py-6 px-4 top-0 mt-20 z-50 bg-white dark:bg-black border-b border-gray-200 dark:border-transparent fixed inline-block lgl:hidden text-gray-900 dark:text-white/80"
         >
           <ul className="w-full flex flex-col gap-2 font-titleFont uppercase text-sm">
             <Link href="/">

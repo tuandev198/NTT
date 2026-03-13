@@ -11,7 +11,7 @@ const servicesData = [
   {
     no: "01",
     title: "Thiết kế Portfolio",
-    startingAmt: "300.00",
+    startingAmt: "8.000.000",
     detailsOne: "Thiết kế giao diện đầy đủ",
     detailsTwo: "Tối ưu hiển thị mọi thiết bị",
     detailsThree: "Ứng dụng trang đơn (SPA)",
@@ -21,7 +21,7 @@ const servicesData = [
   {
     no: "02",
     title: "Website một trang",
-    startingAmt: "500.00",
+    startingAmt: "10.000.000",
     detailsOne: "Thiết kế giao diện đầy đủ",
     detailsTwo: "Tối ưu hiển thị mọi thiết bị",
     detailsThree: "Ứng dụng trang đơn (SPA)",
@@ -31,7 +31,7 @@ const servicesData = [
   {
     no: "03",
     title: "Ứng dụng chat",
-    startingAmt: "1500.00",
+    startingAmt: "Liên Hệ",
     detailsOne: "Thiết kế giao diện đầy đủ",
     detailsTwo: "Tối ưu hiển thị mọi thiết bị",
     detailsThree: "Ứng dụng trang đơn (SPA)",
@@ -41,7 +41,7 @@ const servicesData = [
   {
     no: "04",
     title: "Website thương mại điện tử",
-    startingAmt: "2000.00",
+    startingAmt: "Liên hệ",
     detailsOne: "Thiết kế giao diện đầy đủ",
     detailsTwo: "Tối ưu hiển thị mọi thiết bị",
     detailsThree: "Ứng dụng trang đơn (SPA)",
