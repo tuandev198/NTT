@@ -15,6 +15,7 @@ const navigation = [
   { title: "Giới thiệu", link: "/about" },
   { title: "Dịch vụ", link: "/services" },
   { title: "Dự án", link: "/projects" },
+  { title: "Đội ngũ", link: "/team" },
   { title: "Hỏi đáp", link: "/faq" },
   { title: "Blog", link: "/blog" },
   { title: "Liên hệ", link: "/contact" },
@@ -158,6 +159,11 @@ const Header = () => {
                 Dịch vụ
               </li>
             </Link>
+             <Link onClick={() => setToggleNav(false)} href="/projects">
+              <li className="px-3 hover:cursor-pointer flex items-center gap-1 py-2 border-b-[1px] border-b-borderColor hover:text-secondaryColor hover:border-b-secondaryColor transition-hover duration-500">
+                Dự án
+              </li>
+            </Link>
             <Link href="/faq">
               <li className="px-3 hover:cursor-pointer py-2 border-b-[1px] border-b-borderColor hover:text-secondaryColor hover:border-b-secondaryColor transition-hover duration-500">
                 Hỏi đáp
@@ -166,6 +172,14 @@ const Header = () => {
             <Link href="/blog">
               <li className="px-3 hover:cursor-pointer py-2 border-b-[1px] border-b-borderColor hover:text-secondaryColor hover:border-b-secondaryColor transition-hover duration-500">
                 Blog
+              </li>
+            </Link>
+            <Link href="/team">
+              <li
+                onClick={() => setToggleNav(false)}
+                className="px-3 hover:cursor-pointer py-2 border-b-[1px] border-b-borderColor hover:text-secondaryColor hover:border-b-secondaryColor transition-hover duration-500"
+              >
+                Đội ngũ
               </li>
             </Link>
             <Link onClick={() => setToggleNav(false)} href="/contact">

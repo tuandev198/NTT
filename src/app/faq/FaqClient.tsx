@@ -84,13 +84,13 @@ export default function FaqClient() {
           </h3>
           <div className="mt-4 flex flex-col gap-8">
             <div className="flex flex-col gap-2">
-              <h4 className="text-lg uppercase">Bangladesh:</h4>
+              <h4 className="text-lg uppercase">Hồ Chí Minh:</h4>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <FaHome />
                 </span>
-                Rupnogor Abashik Area, <br />
-                Mirpur-1, Dhaka.
+                66 QL22 <br />
+                Tân An Hội, Củ Chi
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
@@ -102,23 +102,23 @@ export default function FaqClient() {
                 <span className="text-secondaryColor text-lg">
                   <BsPhoneFill />
                 </span>
-                +968 97859628
+                +84 559903798
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <IoLogoWhatsapp />
                 </span>
-                +968 97859628
+                 +84 559903798
               </p>
             </div>
             <div className="flex flex-col gap-2">
-              <h4 className="text-lg uppercase">Oman:</h4>
+              <h4 className="text-lg uppercase">Củ Chi:</h4>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <FaHome />
                 </span>
-                Muscat Business Area, Ruwi, <br />
-                Muscat, Sultanate of Oman
+                66 QL22 <br />
+                Tân An Hội, Củ Chi
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
@@ -130,13 +130,13 @@ export default function FaqClient() {
                 <span className="text-secondaryColor text-lg">
                   <BsPhoneFill />
                 </span>
-                +968 97859628
+                +84 559903798
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <IoLogoWhatsapp />
                 </span>
-                +968 97859628
+               +84 559903798
               </p>
             </div>
           </div>
