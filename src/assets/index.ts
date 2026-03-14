@@ -26,12 +26,12 @@ import aboutUsImgTwo from "./pages/aboutUs/aboutUsImgTwo.webp";
 import aboutUsImgThree from "./pages/aboutUs/aboutUsImgThree.webp";
 // ================ Porject Images Start here ====================
 
-import eCommerceProImg from "@/assets/project/eCommercePro.png";
+import eCommerceProImg from "@/assets/project/eCommercePro.jpg";
 import movieStudioImg from "@/assets/project/movieStudio.png";
-import cyberBlogImg from "@/assets/project/cyberBlog.webp";
-import amazonCloneImg from "@/assets/project/amazonClone.png";
-import portfolioImg from "@/assets/project/portfolio.png";
-import portfolioImgTwo from "@/assets/project/portfolioTwo.png";
+import cyberBlogImg from "@/assets/project/cyberBlog.png";
+import amazonCloneImg from "@/assets/project/amazonClone.jpg";
+import portfolioImg from "@/assets/project/portfolio.jpg";
+import portfolioImgTwo from "@/assets/project/portfolioTwo.jpg";
 // ================ Porject Images End here ======================
 
 export {

@@ -12,7 +12,7 @@ const highlights = [
       "Đa ngành nghề, linh hoạt theo mô hình kinh doanh",
       "Tư vấn kiến trúc thông tin và trải nghiệm người dùng",
     ],
-    image: "/assets/dv1.png",
+    image: "/assets/dv1.webp",
     imageLeft: true,
   },
   {
@@ -25,7 +25,7 @@ const highlights = [
       "Hỗ trợ đa nền tảng",
       "Đảm bảo hiệu năng và tính ổn định",
     ],
-    image: "/assets/dv1.png",
+    image: "/assets/dv2.webp",
     imageLeft: false,
   },
   {
@@ -38,7 +38,7 @@ const highlights = [
       "Báo cáo định kỳ minh bạch",
       "Tối ưu on-page, technical và off-page",
     ],
-    image: "/assets/dv1.png",
+    image: "/assets/dv3.webp",
     imageLeft: true,
   },
   {
@@ -51,7 +51,7 @@ const highlights = [
       "Sáng tạo nội dung fanpage",
       "Hoạch định nội dung định kỳ",
     ],
-    image: "/assets/dv1.png",
+    image: "/assets/dv4.webp",
     imageLeft: false,
   },
   {
@@ -64,7 +64,7 @@ const highlights = [
       "Đảm bảo website vận hành ổn định",
       "Tối ưu trải nghiệm người dùng theo thời gian",
     ],
-    image: "/assets/dv1.png",
+    image: "/assets/dv5.webp",
     imageLeft: true,
   },
   {
@@ -77,7 +77,7 @@ const highlights = [
       "Bộ nhận diện đa kênh",
       "Định hướng phong cách và guideline cơ bản",
     ],
-    image: "/assets/dv1.png",
+    image: "/assets/dv6.webp",
     imageLeft: false,
   },
   {
@@ -90,7 +90,7 @@ const highlights = [
       "Thông điệp và landing page phù hợp",
       "Theo dõi, tối ưu liên tục",
     ],
-    image: "/assets/dv1.png",
+    image: "/assets/dv7.webp",
     imageLeft: true,
   },
   {
@@ -103,7 +103,7 @@ const highlights = [
       "Thực hiện hồ sơ đăng ký",
       "Hướng dẫn các bước duy trì sau đăng ký",
     ],
-    image: "/assets/dv1.png",
+    image: "/assets/dv8.webp",
     imageLeft: false,
   },
   {
@@ -116,7 +116,7 @@ const highlights = [
       "Hỗ trợ kỹ thuật liên tục",
       "Cam kết uptime cao",
     ],
-    image: "/assets/dv1.png",
+    image: "/assets/dv9.webp",
     imageLeft: true,
   },
 ];
