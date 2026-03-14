@@ -5,6 +5,8 @@ import { AiOutlineClose } from "react-icons/ai";
 import { CgMenuRight } from "react-icons/cg";
 
 import Link from "next/link";
+import Image from "next/image";
+import { reactBdLogo } from "@/assets";
 import SideNav from "./SideNav";
 import ThemeToggle from "./ThemeToggle";
 import { usePathname } from "next/navigation";
@@ -49,8 +51,18 @@ const Header = () => {
         <div className="w-full h-[90px]">
           <header className="max-w-screen-2xl mx-auto text-gray-900 dark:text-white flex items-center justify-between h-full overflow-hidden">
             {/* ================= Header logo start here ================= */}
-            <Link href="/" className="font-titleFont text-xl font-bold tracking-wide text-gray-900 dark:text-white">
-              CellVn Solution
+            <Link
+              href="/"
+              className="flex items-center gap-2 font-titleFont text-xl font-bold tracking-wide text-gray-900 dark:text-white"
+            >
+              <Image
+                src={reactBdLogo}
+                alt="CellVn Solution"
+                width={40}
+                height={40}
+                className="h-9 w-auto object-contain"
+              />
+              <span>CellVn Solution</span>
             </Link>
             {/* ================= Header logo end here =================== */}
             {/* ================= Header Nav Link start here =================== */}

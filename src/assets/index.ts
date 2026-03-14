@@ -1,4 +1,4 @@
-import reactBdLogo from "./reactBdLogo.png";
+import reactBdLogo from "./logo.png";
 import clientOne from "./clientsImg/clientOne.webp";
 import clientTwo from "./clientsImg/clientTwo.webp";
 import clientThree from "./clientsImg/clientThree.webp";
