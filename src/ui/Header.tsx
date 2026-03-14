@@ -55,7 +55,7 @@ const Header = () => {
             {/* ================= Header logo end here =================== */}
             {/* ================= Header Nav Link start here =================== */}
             <div className="relative flex items-center gap-4">
-              <ThemeToggle />
+              {/* <ThemeToggle /> */}
               <div className="hidden lgl:flex items-center gap-6 xl:gap-12 uppercase font-titleFont tracking-[3px] text-[14px] font-semibold text-gray-900 dark:text-white">
                 {navigation?.map((item) => (
                   <Link
