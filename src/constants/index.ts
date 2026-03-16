@@ -30,13 +30,13 @@ export let projectsData = [
     des: "Köcher là thương hiệu thiết bị bếp cao cấp tiên phong mang tiêu chuẩn châu Âu đến với người dùng Việt Nam. Theo đuổi triết lý",
     link: "https://kocher.vn/",
   },
-  {
-    _id: 1004,
-    image: amazonCloneImg,
-    title: "Đậm đà căn bếp Việt với website DH Foods",
-    des: "Chúng tôi mơ về một ngày, khi nhắc đến ẩm thực Việt, không chỉ là Phở Hà Nội, Bún Bò Huế, Bánh Mì Sài Gòn,… mà còn là những hũ Muối Chấm Tây Ninh, lọ Tiêu Phú Quốc, gói Xốt gia vị nấu món Việt Nam góp mặt trong căn bếp khắp thế giới.",
-    link: "https://dhfoods.com.vn/",
-  },
+  // {
+  //   _id: 1004,
+  //   image: amazonCloneImg,
+  //   title: "Đậm đà căn bếp Việt với website DH Foods",
+  //   des: "Chúng tôi mơ về một ngày, khi nhắc đến ẩm thực Việt, không chỉ là Phở Hà Nội, Bún Bò Huế, Bánh Mì Sài Gòn,… mà còn là những hũ Muối Chấm Tây Ninh, lọ Tiêu Phú Quốc, gói Xốt gia vị nấu món Việt Nam góp mặt trong căn bếp khắp thế giới.",
+  //   link: "https://dhfoods.com.vn/",
+  // },
   {
     _id: 1005,
     image: portfolioImgTwo,
