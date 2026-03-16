@@ -9,13 +9,13 @@ import {
 
 // =================== Project Data start here ======================
 export let projectsData = [
-  {
-    _id: 1001,
-    image: eCommerceProImg,
-    title: "Website chuẩn SEO cho ngành kế toán – thuế",
-    des: "Trong bức tranh vận hành của một doanh nghiệp, kế toán và thuế luôn giữ vai trò then chốt. Đó là chiếc “la bàn” giúp doanh nghiệp định hướng, giữ cho hành trình phát triển luôn đúng luật, minh bạch và bền vững. Và A.A.C.C xuất hiện để đảm nhận vai trò quan trọng ấy.",
-    link: "https://ketoanaacc.vn/",
-  },
+  // {
+  //   _id: 1001,
+  //   image: eCommerceProImg,
+  //   title: "Website chuẩn SEO cho ngành kế toán – thuế",
+  //   des: "Trong bức tranh vận hành của một doanh nghiệp, kế toán và thuế luôn giữ vai trò then chốt. Đó là chiếc “la bàn” giúp doanh nghiệp định hướng, giữ cho hành trình phát triển luôn đúng luật, minh bạch và bền vững. Và A.A.C.C xuất hiện để đảm nhận vai trò quan trọng ấy.",
+  //   link: "https://ketoanaacc.vn/",
+  // },
   {
     _id: 1002,
     image: movieStudioImg,
